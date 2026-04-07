@@ -1,0 +1,2 @@
+On this repository, we utilize the TCL/TK and CUDD packages and build a fully functional circuit parser by reading a circuit from netlist, parsing it into the interface nodes, their pins and going deeper into gates. Each gatepin has its own BDD (Binary Decision Tree) which holds a probability metric, showing how possible it is for it to be utilized.
+Taking advantage of TCL/TK, we make a number of commands to analyze, control and report the imported circuit in IO, component and gate level.
